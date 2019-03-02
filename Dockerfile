@@ -1,4 +1,3 @@
-FROM docker.io/webdevops/php-apache
-MAINTAINER  ashutoshh  ashutoshh@linux.com
-COPY  index.php  /var/www/html/
-EXPOSE  80
+FROM  php:7.2-apache
+COPY  index.php   /var/www/html/
+
