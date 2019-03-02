@@ -5,6 +5,7 @@
 
 
 echo  "hello world \n";
+echo  phpinfo();
 ?>
 
 </html>
